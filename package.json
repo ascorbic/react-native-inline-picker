@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "pika": "pika-pack"
+    "build": "pika-pack",
+    "version": "yarn build"
   },
   "sideEffects": false,
   "files": [
@@ -45,6 +45,9 @@
   },
   "description": "Customisable inline picker component for React Native",
   "main": "index.js",
-  "repository": "git@github.com:ascorbic/react-native-inline-picker.git",
-  "author": "Matt Kane <m@mk.gg>"
+  "author": "Matt Kane <m@mk.gg>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascorbic/react-native-inline-picker.git"
+  }
 }
