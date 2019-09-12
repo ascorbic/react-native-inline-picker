@@ -1,0 +1,50 @@
+{
+  "name": "react-native-inline-picker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "pika": "pika-pack"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist-*/"
+  ],
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.6.0",
+    "@pika/plugin-build-types": "^0.6.0",
+    "@pika/plugin-build-web": "^0.6.0",
+    "@pika/plugin-standard-pkg": "^0.6.0",
+    "@types/react-native": "^0.60.13",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react": "^16.9.0",
+    "react-native": "^0.60.5",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.59.0"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
+  },
+  "description": "Customisable inline picker component for React Native",
+  "main": "index.js",
+  "repository": "git@github.com:ascorbic/react-native-inline-picker.git",
+  "author": "Matt Kane <m@mk.gg>"
+}
