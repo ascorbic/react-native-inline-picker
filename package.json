@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "pika-pack",
-    "version": "yarn build"
+    "version": "yarn build",
+    "release": "pika publish"
   },
   "sideEffects": false,
   "files": [
@@ -17,6 +18,7 @@
     "@pika/plugin-build-types": "^0.6.0",
     "@pika/plugin-build-web": "^0.6.0",
     "@pika/plugin-standard-pkg": "^0.6.0",
+    "@pika/publish": "^0.1.4",
     "@types/react-native": "^0.60.13",
     "metro-react-native-babel-preset": "^0.56.0",
     "react": "^16.9.0",
