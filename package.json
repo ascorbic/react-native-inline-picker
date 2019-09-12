@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "pika-pack"
+    "build": "pika-pack",
+    "version": "yarn build"
   },
   "sideEffects": false,
   "files": [
